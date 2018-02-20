@@ -20,13 +20,13 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  ke$ha = []
+  kesha = []
   array.each do |string|
     new = string.split('')
-    new[2] == $
-    ke$ha << new
+    new[2] == "$"
+    kesha << new
   end
-  ke$ha
+  kesha
 end
 
 def find_a(array)

@@ -13,7 +13,6 @@ end
 
 def swap_elements(array)
   array.insert(2,array.slice!(1))
-
 end
 
 def reverse_array(array)
@@ -21,7 +20,12 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-
+  ke$ha = []
+  array.each do |string|
+    new = string.split('')
+    new[2] == $
+    ke$ha << new
+  end
 end
 
 def find_a(array)

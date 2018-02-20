@@ -26,6 +26,7 @@ def kesha_maker(array)
     new[2] == $
     ke$ha << new
   end
+  ke$ha
 end
 
 def find_a(array)

@@ -24,7 +24,7 @@ def kesha_maker(array)
   array.each do |string|
     new = string.split('')
     new[2] = "$"
-    kesha << new
+    kesha << new.join
   end
   kesha
 end
